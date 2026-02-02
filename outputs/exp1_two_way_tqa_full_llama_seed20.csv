@@ -1,0 +1,25 @@
+persona,dataset,generation_accuracy,probe_accuracy,knowledge_gap,n_questions,n_unclear,model,probe_dataset,split_mode,split_seed,direction,probe_cv_acc_train,train_n,eval_n
+baseline,TruthfulQA,0.6504000000000001,0.8582,0.20779999999999987,409,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,A_to_B,0.8677,408,409
+age:22 years old,TruthfulQA,0.6161,0.8434999999999999,0.22739999999999994,409,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,A_to_B,0.8677,408,409
+age:68 years old,TruthfulQA,0.6259,0.8411,0.21519999999999995,409,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,A_to_B,0.8677,408,409
+gender:male,TruthfulQA,0.621,0.8533,0.23229999999999995,409,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,A_to_B,0.8677,408,409
+gender:non-binary,TruthfulQA,0.6797,0.8434999999999999,0.16379999999999995,409,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,A_to_B,0.8677,408,409
+race:White,TruthfulQA,0.6259,0.8509,0.22499999999999998,409,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,A_to_B,0.8677,408,409
+race:Black,TruthfulQA,0.621,0.8362,0.21520000000000006,409,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,A_to_B,0.8677,408,409
+race:Asian,TruthfulQA,0.6381,0.8312999999999999,0.19319999999999993,409,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,A_to_B,0.8677,408,409
+baseline,TruthfulQA,0.6446,0.8529000000000001,0.20830000000000015,408,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,B_to_A,0.829,409,408
+age:22 years old,TruthfulQA,0.6495000000000001,0.8603000000000001,0.2108,408,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,B_to_A,0.829,409,408
+age:68 years old,TruthfulQA,0.6347999999999999,0.8676,0.23280000000000012,408,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,B_to_A,0.829,409,408
+gender:male,TruthfulQA,0.6275,0.8676,0.2401000000000001,408,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,B_to_A,0.829,409,408
+gender:non-binary,TruthfulQA,0.6716,0.8578,0.18620000000000003,408,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,B_to_A,0.829,409,408
+race:White,TruthfulQA,0.6175999999999999,0.8652,0.24760000000000004,408,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,B_to_A,0.829,409,408
+race:Black,TruthfulQA,0.625,0.8578,0.2328,408,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,B_to_A,0.829,409,408
+race:Asian,TruthfulQA,0.6544,0.8725,0.21810000000000007,408,0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,B_to_A,0.829,409,408
+baseline,TruthfulQA,0.6475,0.85555,0.20805,408.5,0.0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,mean,0.8483499999999999,408.5,408.5
+age:22 years old,TruthfulQA,0.6328,0.8519,0.21909999999999996,408.5,0.0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,mean,0.8483499999999999,408.5,408.5
+age:68 years old,TruthfulQA,0.63035,0.8543499999999999,0.22400000000000003,408.5,0.0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,mean,0.8483499999999999,408.5,408.5
+gender:male,TruthfulQA,0.62425,0.8604499999999999,0.23620000000000002,408.5,0.0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,mean,0.8483499999999999,408.5,408.5
+gender:non-binary,TruthfulQA,0.67565,0.8506499999999999,0.175,408.5,0.0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,mean,0.8483499999999999,408.5,408.5
+race:White,TruthfulQA,0.62175,0.85805,0.2363,408.5,0.0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,mean,0.8483499999999999,408.5,408.5
+race:Black,TruthfulQA,0.623,0.847,0.22400000000000003,408.5,0.0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,mean,0.8483499999999999,408.5,408.5
+race:Asian,TruthfulQA,0.64625,0.8519,0.20565,408.5,0.0,llama-8b,TruthfulQA,shuffle_50_50_two_way,20,mean,0.8483499999999999,408.5,408.5

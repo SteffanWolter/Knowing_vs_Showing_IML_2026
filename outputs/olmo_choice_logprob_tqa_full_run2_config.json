@@ -1,0 +1,1 @@
+{"model":"allenai\/OLMo-2-1124-7B-Instruct","split_mode":"shuffle","eval_frac":0.5,"tqa_n":0,"eval_n":408,"train_n":409,"seed":20,"load_in_4bit":true,"option_token_id_mode":"1\/2","opt1_token_id":16,"opt2_token_id":17}

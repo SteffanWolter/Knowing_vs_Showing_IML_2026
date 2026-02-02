@@ -1,0 +1,14 @@
+{
+  "timestamp": "20260202_193246",
+  "dataset": "TruthfulQA",
+  "model": "sshleifer/tiny-gpt2",
+  "tqa_n": 2,
+  "split_seed": 20,
+  "eval_frac": 0.5,
+  "load_in_4bit": false,
+  "device": "cpu",
+  "option_token_id_mode": " 1/ 2",
+  "opt1_token_id": 352,
+  "opt2_token_id": 362,
+  "notes": "Computes next-token probabilities for option 1 vs 2 at the JSON Answer position using final logits."
+}

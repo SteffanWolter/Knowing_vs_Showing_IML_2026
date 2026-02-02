@@ -66,4 +66,18 @@ If you want full runs on the complete TruthfulQA validation split, set `--tqa-n 
 
 ## References and attribution
 
-TruthfulQA is described by Lin et al. (2022). The probe-based analysis follows the general probing methodology surveyed by Belinkov (2022) and includes standard cautions about probe selectivity as discussed by Hewitt and Liang (2019). The logit-lens style analysis is related to work such as the Tuned Lens (Belrose et al., 2023) and Future Lens (Pal et al., 2023), but our implementation is intentionally simple and used as an exploratory diagnostic rather than a causal claim about knowledge localization.
+- **TruthfulQA** – Lin, S., Hilton, J., & Evans, O. (2022). *TruthfulQA: Measuring How Models Mimic Human Falsehoods*. ACL 2022. [Paper](https://aclanthology.org/2022.acl-long.229/) | [Dataset](https://huggingface.co/datasets/truthful_qa)
+
+- **Probing Methodology** – Belinkov, Y. (2022). *Probing Classifiers: Promises, Shortcomings, and Advances*. Computational Linguistics. [Paper](https://aclanthology.org/2022.cl-1.7/)
+
+- **Probe Selectivity** – Hewitt, J., & Liang, P. (2019). *Designing and Interpreting Probes with Control Tasks*. EMNLP 2019. [Paper](https://aclanthology.org/D19-1275/)
+
+- **Tuned Lens** – Belrose, N., et al. (2023). *Eliciting Latent Predictions from Transformers with the Tuned Lens*. arXiv. [Paper](https://arxiv.org/abs/2303.08112)
+
+- **Future Lens** – Pal, K., et al. (2023). *Future Lens: Anticipating Subsequent Tokens from a Single Hidden State*. CoNLL 2023. [Paper](https://aclanthology.org/2023.conll-1.37/)
+
+- **Persona Prompting** – Cheng, M., Durmus, E., & Jurafsky, D. (2023). *Marked Personas: Using Natural Language Prompts to Measure Stereotypes in Language Models*. ACL 2023. [Paper](https://aclanthology.org/2023.acl-long.84/)
+
+- **Implicit Personalization** – Jin, Z., et al. (2024). *Implicit Personalization in Language Models: A Systematic Study*. EMNLP 2024 Findings. [Paper](https://aclanthology.org/2024.findings-emnlp.717/)
+
+- **Inference-Time Intervention** – Li, K., et al. (2023). *Inference-Time Intervention: Eliciting Truthful Answers from a Language Model*. NeurIPS 2023. [Paper](https://papers.nips.cc/paper_files/paper/2023/hash/81b8390039b7302c909cb769f8b6cd93-Abstract-Conference.html)
